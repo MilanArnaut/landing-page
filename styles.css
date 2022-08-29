@@ -35,6 +35,7 @@ footer {
     align-items: center;
     justify-content: center;
     padding: 32px 0;
+
 }
 
 
@@ -45,7 +46,7 @@ footer {
     justify-content: center;
     align-items: center;
     gap:55px;
-    padding-top: 120px;
+    padding: 120px 0;
 }
 
 .hero-text {
@@ -85,4 +86,38 @@ footer {
     display:flex;
     justify-content: center;
     align-items: center;
+}
+
+
+.information-section {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex:1;
+}
+
+.information-section h2 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: bold;
+    margin: 60px auto;
+}
+
+.information-items {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 120px;
+}
+
+.information-items .single-item {
+    width: 173px;
+    text-align: center;
+}
+
+.information-items .single-item .single-item-image {
+    border: 3px solid blue;
+    border-radius: 10px;
+    height: 160px;
+    width: 165px;
 }
