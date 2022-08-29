@@ -152,3 +152,31 @@ footer {
     font-weight: bold;
 }
 
+.signup-section {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 160px;
+    padding: 55px 120px;
+    margin: 100px 200px;
+    border-radius: 10px;
+}
+
+.signup-section-text h3 {
+    color: #f9faf8;
+}
+
+.signup-section-text p {
+    color: #e5e7eb;
+}
+
+.signup-section button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: 2px solid #f9faf8;
+    border-radius: 8px;
+    padding: 10px 36px;
+    font-weight: bold;
+}
+
