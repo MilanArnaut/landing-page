@@ -10,7 +10,9 @@ body {
 header {
     background-color: #1f2937;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    gap:30%;
 }
 
 ul {
@@ -33,4 +35,54 @@ footer {
     align-items: center;
     justify-content: center;
     padding: 32px 0;
+}
+
+
+.hero-section {
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:55px;
+    padding-top: 120px;
+}
+
+.hero-text {
+    width:450px;
+    padding: 15px;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    font-weight: 600;
+    color: #f9faf8;
+}
+
+.hero-text p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero-text button {
+    background-color: #3882f6;
+    color:white;
+    font-weight: bold;
+    padding: 12px 35px;
+    border-radius: 10px;
+    border: 0;
+}
+
+.hero-text h1, p, button {
+    margin-bottom: 18px;
+}
+
+.hero-image p {
+    width: 523px;
+    height: 239px;
+    background-color: gray;
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
