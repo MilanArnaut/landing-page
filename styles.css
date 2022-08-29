@@ -121,3 +121,34 @@ footer {
     height: 160px;
     width: 165px;
 }
+
+
+.quote-section {
+    background-color: #e5e7eb;
+    padding: 40px;
+    padding: 140px 0;
+    margin: auto;
+}
+
+.quote-section .quote-text  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-section .quote-text .quote {
+    max-width: 800px;
+    font-size: 36px;
+    color: #1f2937;
+    text-align: justify;
+    font-weight: lighter;
+    font-style: italic;
+
+}
+
+.quote-section .quote-text .author {
+    font-size: 24px;
+    font-weight: bold;
+}
+
